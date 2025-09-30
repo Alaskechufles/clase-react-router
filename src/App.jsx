@@ -13,7 +13,7 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/products">Products</Link>
       </nav>
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow w-full">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" Component={Products} /> 
