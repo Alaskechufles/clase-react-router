@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" Component={Products} /> 
-          <Route path="/product-details/:category" Component={ProductsDetails}/>
+          <Route path="/product-details/:id" Component={ProductsDetails}/>
         </Routes>
       </main>
       <footer className="bg-gray-900 text-white mt-20">
